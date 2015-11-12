@@ -16,9 +16,9 @@ public class Sort {
                     Arr[j + 1] = rev;
                 }
             }
-            }
+        }
         for (int i = 0; i <= Arr.length-1; i++) {
             System.out.print(Arr[i] + " ");
         }
-        }
     }
+}
