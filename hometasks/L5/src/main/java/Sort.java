@@ -3,10 +3,10 @@
  */
 public class Sort {
     public static void main(String[] args) {
-        int [] Arr = {3,7,13,21,12,9,4,17,25,31,11,5,1};
+        int [] Arr = {3, 7, 13, 21, 12, 9, 4, 17, 25, 31, 11, 5, 1};
         // реализация Bubble sort (сокр. фрагмета)
-        for (int i = 0; i < Arr.length-1; i++) {
-            int x = Arr.length-i-1;
+        for (int i = 0; i <= Arr.length-1; i++) {
+            int x = Arr.length - i - 1;
             //max элемент в конец фрагмента
             for (int j = 0; j < x; j++) {
                 //попарное сравнение элементов
@@ -16,9 +16,9 @@ public class Sort {
                     Arr[j + 1] = rev;
                 }
             }
-
+            }
+        for (int i = 0; i <= Arr.length-1; i++) {
             System.out.print(Arr[i] + " ");
-
+        }
         }
     }
-}
