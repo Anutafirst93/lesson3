@@ -7,7 +7,8 @@ public class Trans {
         int n = 4;
         int [] [] mat = new int [m][];
         int [] [] tmat = new int [n][];
-        for (int i =0; i <tmat.length; i++)tmat[i] = new int [m];
+        for (int i =0; i <tmat.length; i++)
+            tmat[i] = new int [m];
 //исходная матрица
         System.out.println("Матрица: ");
         for (int i =0; i <mat.length; i++){
