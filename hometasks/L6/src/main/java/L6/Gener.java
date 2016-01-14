@@ -1,3 +1,5 @@
+package L6;
+
 /**
  * Created by Нюта on 17.11.2015.
  */
