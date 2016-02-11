@@ -59,5 +59,6 @@ public class Stock {
         writer = new XMLWriter(System.out, format);
         writer.write(d);
     }
+   // public void writeDocument ()
 
 }

@@ -1,0 +1,6 @@
+com\so\webapptemplate\StartServlet.class
+com\so\webapptemplate\GetProcessingServlet.class
+com\so\webapptemplate\Users.class
+com\so\webapptemplate\HibernateUtil.class
+com\so\webapptemplate\AddUsersServlet.class
+com\so\webapptemplate\PostProcessingServlet.class
